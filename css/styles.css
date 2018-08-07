@@ -1,0 +1,76 @@
+/*!
+ * Start Bootstrap - Scrolling Nav (https://startbootstrap.com/template-overviews/scrolling-nav)
+ * Copyright 2013-2017 Start Bootstrap
+ * Licensed under MIT (https://github.com/BlackrockDigital/startbootstrap-scrolling-nav/blob/master/LICENSE)
+ */
+
+header {
+  /*padding: 10px 0 100px;*/
+}
+
+header #header-img{
+	width:25px;
+	border-radius: 50%;
+	display: inline-block;
+	margin-right: 5px;
+}
+
+a.navbar-brand{
+  font-size: 1.2em;
+  font-weight: 800;
+}
+
+.nav-item a.nav-link{
+	font-weight: 500;
+	/*margin-right: 1px;*/
+	padding: 0;
+}
+
+
+.nav-item a.nav-link:hover{
+	border-bottom: 2px solid rgb(216, 150, 27);
+}
+
+
+.nav-item a.nav-link:focus{
+	border-bottom: 2px solid rgb(216, 150, 27);
+}
+
+.bg-green{
+  background: rgb(16, 114, 3);
+  color:#fff;
+}
+
+.bg-orange{
+  background: rgb(216, 150, 27);
+  color:#fff;
+}
+
+
+.carousel-item {
+  height: 60vh;
+  min-height: 300px;
+  background: no-repeat center center scroll;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+iframe{
+	width: 100%;
+	height: 300px;
+	margin-top: 20px;
+}
+
+
+section {
+  padding: 30px 0 0;
+}
+
+@media (max-width: 600px) {
+     .carousel-item {
+	  height: 50vh;
+	  min-height: 300px;
+	}	
+}
